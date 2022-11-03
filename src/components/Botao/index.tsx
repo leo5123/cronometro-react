@@ -2,13 +2,14 @@ import React from 'react'
 import './styles.scss'
 
 interface props {
-    texto: string
+    texto: string,
+    onClick?: () => void
 }
 
-export default function Botao(texto: props){
-    return(
-        <button className='botao'>
-            {texto.texto}
+export default function Botao({ texto, onClick }: props) {
+    return (
+        <button onClick={onClick} type='submit' className='botao'>
+            {texto}
         </button>
     )
 }

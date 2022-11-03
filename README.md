@@ -12,7 +12,7 @@ Project is created with:
 Para rodar esse projeto, instale-o localmente usando o npm:
 
 ```
-$ cd cronometro-react
+$ cronometro-react
 $ npm install
 $ npm start
 ```
